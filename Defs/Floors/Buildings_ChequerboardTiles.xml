@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Buildings>
+
+ <ThingDef ParentName="BuildingBase">
+	<defName>ChequerboardTilesA</defName>
+	<label>chequerboard tiles a</label>
+    <thingClass>Building</thingClass>
+    <description>Two tiles placed diagonally on a 2x2 grid.</description>
+    <placingDraggableDimensions>2</placingDraggableDimensions>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Overlays/ChequerboardTilesA</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Beauty>3</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>false</isEdifice>
+    </building>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costStuffCount>2</costStuffCount>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+	<designationCategory>Floors</designationCategory>
+  </ThingDef>
+  
+   <ThingDef ParentName="BuildingBase">
+	<defName>ChequerboardTilesB</defName>
+	<label>chequerboard tiles b</label>
+    <thingClass>Building</thingClass>
+    <description>Two tiles placed diagonally on a 2x2 grid.</description>
+    <placingDraggableDimensions>2</placingDraggableDimensions>
+    <category>Building</category>
+    <graphicData>
+      <texPath>Overlays/ChequerboardTilesB</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Flammability>0</Flammability>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Beauty>3</Beauty>
+    </statBases>
+    <building>
+      <isEdifice>false</isEdifice>
+    </building>
+    <stuffCategories>
+      <li>Stony</li>
+      <li>Woody</li>
+      <li>Metallic</li>
+    </stuffCategories>
+	<costStuffCount>2</costStuffCount>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <tickerType>Normal</tickerType>
+    <researchPrerequisites>
+      <li>Stonecutting</li>
+    </researchPrerequisites>
+	<designationCategory>Floors</designationCategory>
+  </ThingDef>
+    
+</Buildings>

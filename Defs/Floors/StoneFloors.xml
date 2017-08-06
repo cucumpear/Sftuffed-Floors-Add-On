@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <StuffedFloors.FloorTypeDef Name="StuffedFloorsStoneBase" ParentName="StuffedFloorsBase" Abstract="True">
+        <stuffCategories>
+            <li>Stony</li>
+        </stuffCategories>
+    </StuffedFloors.FloorTypeDef>
+
+    <StuffedFloors.FloorTypeDef Name="StuffedFloorsStoneBasicBase" ParentName="StuffedFloorsStoneBase" Abstract="True">
+        <statBases>
+            <WorkToBuild>200</WorkToBuild>
+            <Beauty>0</Beauty>
+        </statBases>
+        <stuffCost>3</stuffCost>
+        <tags>
+        <li>Road</li>
+        </tags>
+    </StuffedFloors.FloorTypeDef>
+
+    <StuffedFloors.FloorTypeDef Name="StuffedFloorsStonePrettyBase" ParentName="StuffedFloorsStoneBase" Abstract="True">
+        <statBases>
+            <WorkToBuild>300</WorkToBuild>
+            <Beauty>2</Beauty>
+        </statBases>
+        <stuffCost>5</stuffCost>
+    </StuffedFloors.FloorTypeDef>
+	
+	<StuffedFloors.FloorTypeDef ParentName="StuffedFloorsStonePrettyBase">
+    	<defName>StuffedStoneCCPChequerboardBase</defName>
+    	<label>small slabs</label>
+    	<description>Small slabs, perfect when planning to make a chequerboard floor.</description>
+        <texturePath>Floors/Stone/CCPChequerboardBase</texturePath>
+    </StuffedFloors.FloorTypeDef>  
+
+    <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsStonePrettyBase">
+    	<defName>StuffedStoneCCPTile</defName>
+    	<label>basic tiles</label>
+    	<description>Refined, carefully-cut stone tiles for a castle feeling.</description>
+        <texturePath>Floors/Stone/CCPTileStone</texturePath>
+        <obsoletes>
+            <li>TileSandstone</li>
+            <li>TileGranite</li>
+            <li>TileLimestone</li>
+            <li>TileSlate</li>
+            <li>TileMarble</li> 
+        </obsoletes>
+    </StuffedFloors.FloorTypeDef>
+	
+    <StuffedFloors.FloorTypeDef ParentName="StuffedFloorsStoneBasicBase">
+    	<defName>StuffedStoneCCPFlagstone</defName>
+    	<label>flagstone</label>
+    	<description>Roughly-cut stone tiles. They make good surfaces for roads and outdoor walkways.</description>
+        <texturePath>Floors/Stone/CCPFlagstone</texturePath>
+        <obsoletes>
+            <li>FlagstoneSandstone</li>
+            <li>FlagstoneGranite</li>
+            <li>FlagstoneLimestone</li>
+            <li>FlagstoneSlate</li>
+            <li>FlagstoneMarble</li> 
+        </obsoletes>
+    </StuffedFloors.FloorTypeDef>
+</Defs>

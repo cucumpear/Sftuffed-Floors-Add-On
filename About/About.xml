@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>CCP's Stuffed Floors Add-On</name>
+  <author>cucumpear</author>
+  <url></url>
+  <targetVersion>0.17.0</targetVersion>
+  <description>Add-On for Fluffy's Stuffed Floors, which is of course required, as is Architect Sense.
+  This mod adds a 2x2 tile floor, two overlays for chequerboard floors and adds a stuffed version of the new vanilla tiles and flagstones. More overlays are planned, all textures are either derived from the game itself or from Telkir's More Floors.
+</description>
+</ModMetaData>
